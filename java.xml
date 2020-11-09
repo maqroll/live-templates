@@ -1,0 +1,7 @@
+<templateSet group="java">
+  <template name="cool" value="A cool template" description="A cool template" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
