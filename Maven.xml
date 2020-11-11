@@ -1,0 +1,7 @@
+<templateSet group="Maven">
+  <template name="format" value="    &lt;!-- manual with mvn com.coveo:fmt-maven-plugin:format --&gt;&#10;    &lt;plugins&gt;&#10;      &lt;plugin&gt;&#10;        &lt;groupId&gt;com.coveo&lt;/groupId&gt;&#10;        &lt;artifactId&gt;fmt-maven-plugin&lt;/artifactId&gt;&#10;        &lt;version&gt;2.9.1&lt;/version&gt;&#10;        &lt;executions&gt;&#10;          &lt;execution&gt;&#10;            &lt;goals&gt;&#10;              &lt;goal&gt;check&lt;/goal&gt;&#10;            &lt;/goals&gt;&#10;          &lt;/execution&gt;&#10;        &lt;/executions&gt;&#10;      &lt;/plugin&gt;&#10;    &lt;/plugins&gt;" description="format plugin" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+</templateSet>
