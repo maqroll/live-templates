@@ -1,5 +1,13 @@
 <templateSet group="java">
-  <template name="cool" value="A cool template" description="A cool template" toReformat="false" toShortenFQNames="true">
+  <template name="acceptor" value="public void accept($VISITOR_TYPE$ v) {&#10;    v.visit(this);&#10;}" description="Acceptor (visitor pattern)" toReformat="false" toShortenFQNames="true">
+    <variable name="VISITOR_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="visitor" value="public class $VISITOR_TYPE$ {&#10;&#10;    // As many as you need&#9; &#10;    public void visit($ACCEPTOR_TYPE$ e) {&#10;        // TODO&#10;    }&#10;}" description="Visitor pattern" toReformat="false" toShortenFQNames="true">
+    <variable name="VISITOR_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACCEPTOR_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
